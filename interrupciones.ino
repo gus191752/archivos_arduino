@@ -10,6 +10,11 @@ void loop()
           {     Serial.println(contador);
                 n = contador ;
           }
+
+       if (contador>100)
+             {
+             contador=0;
+             }
    }
 
 void ServicioBoton() 
