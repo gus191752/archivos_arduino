@@ -22,8 +22,8 @@ if (anterior_a==0 && actual_a==1)
   }
   else
   {contador--;
+   Serial.println("contador: "+contador);
   }
   }
 anterior_a=actual_a; 
- Serial.println("contador: "+contador);
-}
+ }
